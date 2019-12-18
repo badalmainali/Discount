@@ -1,0 +1,5 @@
+A=int(input("Enter Amount:"))
+D=int(input("Enter Discount percnt:"))
+Disc=(D/100*A)
+Amnt=(A-Disc)
+print("Total Amount is ",Amnt)
